@@ -3,19 +3,8 @@ public class Rectangular {
     private long length;
     private long width;
 
-    public long getLength() {
-        return length;
-    }
-
-    public void setLength(long length) {
+    public Rectangular(long length, long width) {
         this.length = length;
-    }
-
-    public long getWidth() {
-        return width;
-    }
-
-    public void setWidth(long width) {
         this.width = width;
     }
 
